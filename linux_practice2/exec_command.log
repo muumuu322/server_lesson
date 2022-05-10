@@ -1,0 +1,73 @@
+    1  cd /root
+    2  mkdir server_lesson && cd server_lesson
+    3  yum update -y && yum -y install git
+    4  git version
+    5  git init
+    6  touch first.txt
+    7  git add .
+    8  git status
+    9  git commit -m 'first commit'
+   10  git push -u origin master
+   11  git push -u origin master
+   12  git config --global user.name "muumuu322"
+   13  git config --global user.email "muumuu322@gmail.com"
+   14  git push -u origin master
+   15  git remote add origin https://github.com/muumuu322/server_lesson.git
+   16  git status
+   17  git push -u origin master
+   18  git push -u origin main
+   19  git push -u origin master
+   20  git push -u origin master
+   21  git push -u origin main
+   22  echo "# server_lesson" >> README.md
+   23  git add README.md
+   24  git status
+   25  git commit -m "first commit"
+   26  git branch -M main
+   27  git remote add origin https://github.com/muumuu322/server_lesson.git
+   28  git push -u origin main
+   29  mkdir -p linux_practice1/public
+   30  ls
+   31  touch linux_practice1/public/index.php
+   32  cd linux_practice1/public
+   33  cp index.php index_bk.php
+   34  ls
+   35  cd 
+   36  cd server_lesson/linux_practice1
+   37  cp -r public tmp
+   38  ls tmp
+   39  rm tmp/index_bk.php
+   40  ls tmp
+   41  cd server_lesson
+   42  cd
+   43  cd server_lesson
+   44  vi README.md
+   45  git add .
+   46  git status
+   47  git commit -m 'completed linux_practice1'
+   48  git push -u origin main
+   49  vi README.md
+   50  git add .
+   51  git status
+   52  git commit -m 'Fixed README.md'
+   53  git push -u origin main
+   54  mkdir -p linux_practice2/documents
+   55  touch linux_practice2/documents/gizumo{01..50}.md
+   56  ls linux_practice2/documents
+   57  mkdir linux_practice2/trash
+   58  ls linux_practice2
+   59  mv linux_practice2/documents/gizumo{20..40}.md linux_practice2/trash/gizumo{20..40}.md
+   60  ls linux_practice2
+   61  ls linux_practice2/trash
+   62  ls linux_practice2/documents
+   63  cd linux_practice2
+   64  mv documents/gizumo{20..40}.md trash
+   65  ls trash
+   66  ls documents
+   67  touch .gitignore
+   68  ls -a
+   69  vi .gitignore
+   70  cat .gitignore
+   71  touch exec_command.log
+   72  ls
+   73  history 300 >> exec_command.log
