@@ -12,5 +12,5 @@
 	- rm(ReMove)
 	- *(wildcard)
 	- cat(CATnate)
-	- >
-	- >>
+	- '>'
+	- '>>'
